@@ -1,0 +1,12 @@
+{
+    "datos_personales": {
+        "nombre": "Alejandro",
+        "apellidos": "Calderón Sánchez",
+        "email": "alex@gmail.com",
+        "telefonos": ["12345678", "87654321"]
+    },
+    "experiencias_laborales": [
+        "experiencia1",
+        "experiencia2"
+    ]
+}
