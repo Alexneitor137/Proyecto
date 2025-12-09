@@ -13,7 +13,7 @@ header,footer{
 	text-align:center;
 }
 main{
-    display: grid;
-    grid-template-columns: repeat(2,100fr);
-    gap: 20px;
+	display:grid;
+  grid-template-columns:repeat(2,100fr);
+  gap:20px;
 }
