@@ -21,10 +21,11 @@ CREATE TABLE noticias (
     titulo VARCHAR(200) NOT NULL,
     contenido TEXT NOT NULL,
     fecha_publicacion DATETIME DEFAULT CURRENT_TIMESTAMP,
-    autor_id INT NOT NULL,
+    autor_id INT NULL,   -- ← Debe permitir NULL
 
     CONSTRAINT fk_noticias_autores
         FOREIGN KEY (autor_id)
         REFERENCES autores(id)
         ON UPDATE CASCADE
         ON DELETE SET NULL
+);
