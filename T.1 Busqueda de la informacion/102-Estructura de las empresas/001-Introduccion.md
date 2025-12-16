@@ -9,3 +9,7 @@ Tenemos que averiguar/estimar
 Posible origen: BORME
 Posible origen: Linkedin
 Posible origen: Entrevistas en internet
+
+El objetivo es comprender el volumen necesario 
+de la empresa
+Para poder estimar si vuestro proyecto es viable
